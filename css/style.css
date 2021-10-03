@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: avenir, sans-serif;
+}
+
+
+
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+.container {
+    background-image: url(../img/banner.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-position: center top;
+    height: 770px;
+}
+
+.btn-topo button {
+    position: absolute;
+    right: 3%;
+    top:2%;
+    background-color: #4e4a59;;
+    height: 50px;
+    width:114px;
+    color: #f9f9f9;
+    font-weight: -400;
+    font-size:19px;
+    border:0;
+    border-radius: 5px;
+}
+
+.btn-topo button:hover {
+    background-color: #35313F;
+}
+.centro {
+    width:500px;
+    height:200px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    padding-top:140px;
+}
+
+.centro img {
+    width: 180px;
+    display:block;
+    margin:auto;
+
+}
+
+.centro h1 {
+    color: #f9f9f9;
+    font-weight: -700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn-centro button {
+    width:600px;
+    height: 68px;
+    background: linear-gradient(90deg,#fa1660,#ff6e00);
+    font-weight: -400;
+    margin:auto;
+    margin-left:-40px;
+    color:#f9f9f9;
+    font-size:18px;
+    border: none;
+    border-radius:5px;
+    margin-top:25px;
+}
+
+.btn-centro button:hover {
+    background: linear-gradient(90deg,#ff6e00,#fa1660);
+    color: #f9f9f9;
+}
+
+.btn-centro a {
+    color: #f9f9f9;
+    font-weight: -400;
+    display: block;
+    font-size:20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
